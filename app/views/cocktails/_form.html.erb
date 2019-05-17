@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <%= simple_form_for @cocktail do |f| %>
+
+        <div class="form-inputs" >
+          <%= f.input :name %>
+
+        </div>
+
+      <div class="form-actions">
+      <%= f.submit class: 'btn btn-primary'%>
+    </div>
+    </div>
+  </div>
+</div>
+<% end %>
